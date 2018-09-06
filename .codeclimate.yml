@@ -1,16 +1,5 @@
-engines:
-  duplication:
+version: "2"
+
+plugins:
+  haml-lint:
     enabled: true
-    config:
-      languages:
-        - "ruby"
-  reek:
-    enabled: true
-  rubocop:
-    enabled: true
-ratings:
-  paths:
-    - "Gemfile.lock"
-    - "**.rb"
-exclude_paths:
-  - "spec/**/*"
